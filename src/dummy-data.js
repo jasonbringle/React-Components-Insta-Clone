@@ -44,6 +44,31 @@ const dummyData = [
                 text: "It that injustice"
             }
         ]
+    },
+    {
+        username: "Foobar Jones",
+        thumbnailUrl: 'https://images.unsplash.com/photo-1579632091221-3347e201bc99?ixlib=rb-1.2.1&auto=format&fit=crop&w=3234&q=80',
+        imageUrl: 'https://images.unsplash.com/photo-1579631995343-f9f007ef1df1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1234&q=80',
+        likes: 1000007,
+        timestamp: "July 7th 2019, 03:12:09 pm",
+        comments: [
+            {
+                username: "George",
+                text: "so rad"
+            },
+            {
+                username: "Tsuchiya",
+                text: "Worthy opponent"
+            },
+            {
+                username: "MagicDan",
+                text: "Black and gold for the win!"
+            },
+            {
+                username: "JimmyJam",
+                text: "That's my JAM!"
+            }
+        ]
     }
 ];
 
