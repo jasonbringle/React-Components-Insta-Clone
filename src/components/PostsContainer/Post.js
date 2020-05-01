@@ -9,7 +9,7 @@ const Post = props => {
   const [likesNum, setLikes] = useState(props.post.likes);
 
   const increaseLikes = () => {
-    setLikes(likesNum + 1);
+    setLikes(likesNum === props.post.likes ? likesNum + 1 : likesNum - 1);
   };
 
   return (
